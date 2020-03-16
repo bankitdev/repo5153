@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" >
+ 
+ <!--
+  <test name="basetestcase" verbose="1">
+    <classes>
+      <class name="com.ro.basetestcase.SignUpTest"/>
+      <class name="com.ro.basetestcase.ForgotPasswordTest"/>
+      <class name="com.ro.basetestcase.VerificationTest"/>  
+      <class name="com.ro.basetestcase.VideoTutorialTest"/>
+      <class name="com.ro.basetestcase.FooterTest"/>
+    </classes>
+  </test> 
+     
+  <test name="aremit" verbose="2">
+    <classes>
+      <class name="com.ro.aremittestcase.AremitTest"/>
+    </classes>
+  </test> 
+ 
+  <test name="cardtestcase" verbose="3">
+    <classes>
+      <class name="com.ro.cardtestcase.IssueNewPhysicalCardTest"/>
+      <class name="com.ro.cardtestcase.IssueNewVirtualCardTest"/>
+      <class name="com.ro.cardtestcase.GetVirtualCardDetailsTest"/>
+      <class name="com.ro.cardtestcase.GetVirtualCardCVVTest"/>
+      <class name="com.ro.cardtestcase.GetCardDetailsTest"/>
+      <class name="com.ro.cardtestcase.GetCardBalanceTest"/>
+      <class name="com.ro.cardtestcase.CardReportTest"/>
+    </classes>
+  </test> 
+ 
+  <test name="bbpstestcases" verbose="4">
+    <classes>
+      <class name="com.ro.bbpstestcases.BBPSTest"/>
+    </classes>
+  </test> 
+  
+  <test name="rechargetestcases" verbose="5">
+    <classes>
+      <class name="com.ro.rechargetestcases.MobileRechargeTest"/>
+      <class name="com.ro.rechargetestcases.DTHRechargeTest"/>
+      <class name="com.ro.rechargetestcases.DataCardRechargeTest"/>
+    </classes>
+  </test> 
+    
+  <test name="utilitytestcases" verbose="6">
+    <classes>
+      <class name="com.ro.utilitytestcase.PayBillsTest"/>
+      <class name="com.ro.utilitytestcase.InsuranceTest"/>
+      <class name="com.ro.utilitytestcase.ElectricityTest"/>
+      <class name="com.ro.utilitytestcase.GasTest"/>
+      <class name="com.ro.utilitytestcase.WaterTest"/>
+    </classes>
+  </test>
+  
+   <test name="irctctestcases" verbose="7">
+    <classes>
+      <class name="com.ro.irctctest.IrctcDongleTest"/>
+    </classes>
+  </test> 
+  
+  <test name="BioMetricDeviceTest" verbose="8">
+    <classes>
+      <class name="com.ro.biometricdevicetestcase.MantraBiometricTest"/>
+      <class name="com.ro.biometricdevicetestcase.MorphoBiometricTest"/>
+    </classes>
+  </test> 
+   -->
+  <test name="myaccounttestcases" verbose="9">
+    <classes>
+      <class name="com.ro.myaccounttestcases.MyProfileTest"/>
+      <class name="com.ro.myaccounttestcases.WalletUploadRechargeTest"/>
+      <class name="com.ro.myaccounttestcases.WalletToWalletTopupTest"/>
+      <class name="com.ro.myaccounttestcases.TatkalWalletRechargeTest"/>
+      <class name="com.ro.myaccounttestcases.MyAccountStatementTest"/>
+      <class name="com.ro.myaccounttestcases.AEPSTransactionStatementTest"/>
+      <class name="com.ro.myaccounttestcases.DownloadReportsTest"/>
+      <class name="com.ro.myaccounttestcases.IssuesCardTest"/>
+      <class name="com.ro.myaccounttestcases.SenderRecipientReportsTest"/>
+      <class name="com.ro.myaccounttestcases.DownloadTest"/>
+      <class name="com.ro.myaccounttestcases.HelpCenterTest"/>
+    </classes>
+  </test> 
+  
+</suite> 
